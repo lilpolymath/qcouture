@@ -1,10 +1,16 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `QCouture`,
+    siteTitleAlt: `QCouture | The Fabric Doctor`,
+    siteUrl: `https://qcouture.netlify.app/`,
+    siteLanguage: `en`,
+    siteDescription: `I'm here to introduce you to my world of fabrics, and threads, and designs beyond wildest imaginations.`,
+    author: `@lekoarts_de`,
+    siteImage: `/banner.jpg`,
   },
   plugins: [
     {
@@ -24,11 +30,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/Thatdoctorthatsews`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/q_couture_/`,
           },
         ],
       },
@@ -43,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `QCouture | The Fashion Doctor`,
+        short_name: `QCouture`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
@@ -67,4 +73,4 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
-}
+};
