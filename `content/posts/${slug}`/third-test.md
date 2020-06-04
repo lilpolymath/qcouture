@@ -7,4 +7,4 @@ tags:
   - test
 banner: /img/defence-against-the-dark-arts.jpg
 ---
-Nothing much jare
+Nothing much jare.
