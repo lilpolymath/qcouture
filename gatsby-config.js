@@ -43,6 +43,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-168581843-1',
+        exclude: ['/admin/**'],
+        respectDNT: true,
+        cookieDomain: 'qcouture.netlify.app',
       },
     },
     `gatsby-plugin-sitemap`,
