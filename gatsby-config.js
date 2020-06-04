@@ -72,5 +72,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cms`,
   ],
 };
