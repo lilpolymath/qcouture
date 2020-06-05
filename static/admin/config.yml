@@ -7,6 +7,9 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+media_folder: content/posts
+public_folder: /img
+
 collections:
   - name: 'blog'
     label: 'Blog'
