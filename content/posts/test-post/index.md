@@ -7,12 +7,7 @@ tags:
   - test
 banner: placeholder-6-.png
 ---
-- - -
-
-title: Known Issues and Solutions weight: 20
-group: support
-
-- - -
+![Test image](placeholder-6-.png "Gravity Headers")
 
 ## Background
 
